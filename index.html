@@ -28,19 +28,20 @@
       position: relative;
       width: 100%;
       height: 100%;
-      background: url('https://media.giphy.com/media/kqOkk3xDTrjSE/giphy.gif') center bottom no-repeat;
-      background-size: cover;
+      background: url('https://media.giphy.com/media/kqOkk3xDTrjSE/giphy.gif') center center no-repeat;
+      background-size: 130%;
       }
 
       .hr{
-          opacity:0.05;
-        padding-bottom:15px;
+          opacity:0.25;
+          margin-bottom: 0.15em;    
       }
       .clue{
         opacity:0.5;
-        font-size:0.5em;
+        font-size:0.45em;
         font-weight:lighter;
-        color: white;
+        padding-top:0.15em;
+        color: #696969f0;
       }
 
       /* other */
@@ -71,6 +72,7 @@
 
       /* block-$ */
       .block-effect {
+        margin-top: 1.15em;
         font-size: calc(8px + 6vw);
       }
 
@@ -84,7 +86,7 @@
         position: relative;
         overflow: hidden;
 
-        animation: revealBlock 0s var(--t) forwards;
+        animation: revealBlock 0s var(--t) forwards;  
       }
 
       .block-reveal::after {
