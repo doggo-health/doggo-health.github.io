@@ -200,6 +200,7 @@ html.bg-gradient-04, .nikeForce {
         align-items: center;
 
         min-height: 100vh;
+	margin-top: 7%;
         padding: 20px;
 
         font-family:   'Montserrat', sans-serif;
@@ -227,12 +228,14 @@ html.bg-gradient-04, .nikeForce {
       /* other */
       .info {
         margin: 20px 0;
+	font-size: 0.75em
         text-align: center;
         opacity:0.25;
       }
 
       .copyright{
       padding-right:2em;  
+      opacity: 1;
       }
 
       p {
