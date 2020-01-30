@@ -1,0 +1,253 @@
+/**
+ * Customs theme for reveal.js.
+ *
+ * Copyright (C) 2011-2020 Constant Mori
+ */
+
+
+/* Base Overall Type: Century Gothic, Brandon Grosteque */
+
+@import url(https://fonts.googleapis.com/css?family=Questrial:400);
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,200,400);
+
+/* Header: TW Cen MT, Futura */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Intro Text */
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+/* Sub-Header */
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+/* Article */
+
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+
+/* Paragraph */
+
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+/* Blockquote */
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
+
+
+body {
+    /*background: rgba(44,46,48,0.8);*/
+    transition: -webkit-transform 0.18s ease;
+}
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+html {
+    /*background: url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg);
+    background-size: cover;
+    background-position: center center;*/
+
+    font-family: "Futura", "Tw Cen MT", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #333;
+    /*font-family: 'Century Gothic', 'Questrial', 'Didact Gothic', 'Dosis', 'Gill Sans MT', CenturyGothic, AppleGothic, Helvetica, sans-serif;*/
+		margin-top: -50px;
+}
+
+::selection {
+    /*color: rgba(0, 0, 0, 0.5);
+    background: rgba(182,179,202,0.9);*/
+    text-shadow: none;
+}
+
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+
+section.headers {
+}
+
+section.basement.splash {
+    /* margin: 20% 0 .15em 0; */
+}
+
+h1.headers.title {
+    font-family: "Tw Cen MT", "Futura", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 3.5em;
+    letter-spacing: 0.05em;
+}
+
+
+/*********************************************
+ * BACKGROUND GRADIENTS
+ *********************************************/
+
+/*html.bg-gradient-01, .bg-gradient-01, */section.bg-gradient-01 {
+    background: 
+    linear-gradient(-180deg, rgba(30, 112, 207, .45), transparent 300%), 
+    linear-gradient(240deg, rgba(9, 155, 221, .25), transparent 50%), 
+    linear-gradient(100deg, rgba(101, 6, 4, .95), transparent 100%), 
+    linear-gradient(-100deg, rgba(158, 40, 234, .95), transparent 100%)/*, url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg)*/
+}
+
+/* Animated Pantone 2016 Hues */
+html.bg-gradient-02, .pTone {
+    background: 
+        linear-gradient(75deg, #f7cac9, #f7786b, #91a8d0, #034f84, #f7786b, #91a8d0, #f7786b, #034f84, #f7cac9, #342760, #9896a4, #ef8905, #0df4c9);
+    background-size: 2600% 2600%;
+
+    -webkit-animation: pTone 59s ease infinite;
+    -moz-animation: pTone 59s ease infinite;
+    animation: pTone 59s ease infinite;
+
+    @-webkit-keyframes pTone {
+        0%{background-position:48% 0%}
+        50%{background-position:53% 100%}
+        100%{background-position:48% 0%}
+    }
+    @-moz-keyframes pTone {
+        0%{background-position:48% 0%}
+        50%{background-position:53% 100%}
+        100%{background-position:48% 0%}
+    }
+    @keyframes pTone { 
+        0%{background-position:48% 0%}
+        50%{background-position:53% 100%}
+        100%{background-position:48% 0%}
+    }
+}
+
+/*MINT LIME SEAFOAM - mintyFoam */
+html.bg-gradient-03, .mintyFoam {
+    background: linear-gradient(268deg, #09efb3, #c6fa39, #3dfcd8, #3dfcd8);
+    background-size: 800% 800%;
+
+    -webkit-animation: mintyFoam 16s ease infinite;
+    -moz-animation: mintyFoam 16s ease infinite;
+    animation: mintyFoam 16s ease infinite;
+
+    @-webkit-keyframes mintyFoam {
+        0%{background-position:0% 30%}
+        50%{background-position:100% 71%}
+        100%{background-position:0% 30%}
+    }
+    @-moz-keyframes mintyFoam {
+        0%{background-position:0% 30%}
+        50%{background-position:100% 71%}
+        100%{background-position:0% 30%}
+    }
+    @keyframes mintyFoam { 
+        0%{background-position:0% 30%}
+        50%{background-position:100% 71%}
+        100%{background-position:0% 30%}
+    }
+}
+
+ DEEP SEA EMERALD, PURPLE, SEAFOAM, LIME - nikeForce 
+html.bg-gradient-04, .nikeForce {
+    background: linear-gradient(216deg, #153c35, #281635, #00ffd0, #c6fa39);
+    background-size: 800% 800%;
+
+    -webkit-animation: nikeForce 51s ease infinite;
+    -moz-animation: nikeForce 51s ease infinite;
+    animation: nikeForce 51s ease infinite;
+
+    @-webkit-keyframes nikeForce {
+        0%{background-position:51% 0%}
+        50%{background-position:50% 100%}
+        100%{background-position:51% 0%}
+    }
+    @-moz-keyframes nikeForce {
+        0%{background-position:51% 0%}
+        50%{background-position:50% 100%}
+        100%{background-position:51% 0%}
+    }
+    @keyframes teal-purple-sfoam-lime { 
+        0%{background-position:51% 0%}
+        50%{background-position:50% 100%}
+        100%{background-position:51% 0%}
+    }
+}
+
+
+/*********************************************
+ * CUSTOM
+ *********************************************/
+
+.error {
+    background: url(/assets/ph/giphy-07-face.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+transition-property: background;
+   transition-duration: 15s; /* 25s time it takes to fade-in*/
+   transition-delay: 0s; /* 25s time it takes to to actually play. no fade-in */
+   transition-timing-function: linear;
+    /*-webkit-filter: blur(500) opacity(0.1);*/
+    background-color: rgba(127,255,212,.95);
+    filter: opacity(0.1);
+    z-index: -100;
+}
+
+
+/* Learn More Icon */
+img.icon.svg.open {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    position: initial;
+    width: 64px;
+    height: 64px;
+    -webkit-user-select: none;
+    opacity: 0.6;
+    transition: transform 350ms ease-out;
+    margin-bottom: -.18em;
+}
+
+/* Learn More Icon */
+img.icon.svg.open:hover {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    /*opacity: 0.05;*/
+    transition: transform 50ms cubic-bezier(0.4, 0, 1, 1);
+    
+}
+
+a.nav.ctrl.open {
+    display: block;
+    transition: transform 150ms ease-in-out;
+}
+
+a.nac.ctrl.open:hover {
+    transition: transform 350ms ease-out;
+    opacity: 0.25;
+}
+
+h6.nav-pg-link.animated.fadeIn.icon.svg.open {
+    /*margin-top: 5%;
+    position: relative;
+    margin-bottom: 0;*/
+    bottom: -10em;
+    right: 43%;
+    margin-bottom: 0;
+    display: block;
+    position: fixed;
+    left: 43%;
+    margin: 0 auto;
+}
