@@ -27,17 +27,17 @@
 
 /* Article */
 
-@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+/* @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
-
+ */
 /* Paragraph */
 
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
-
+/* @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+ */
 /* Blockquote */
 
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
-
+/* @import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+ */
 
 
 body {
@@ -70,7 +70,7 @@ html {
     /*background: url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg);
     background-size: cover;
     background-position: center center;*/
-	background-color: orange;
+    background-color: orange;
     font-family: "Futura", "Tw Cen MT", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 0.85em;
     font-weight: normal;
@@ -104,15 +104,15 @@ h1.headers.title {
  *********************************************/
 
 /*html.bg-gradient-01, .bg-gradient-01, */section.bg-gradient-01 {
-    background: 
+/*     background: 
 	    linear-gradient(-180deg, rgba(30, 112, 207, .45), transparent 300%), 
 	    linear-gradient(240deg, rgba(9, 155, 221, .25), transparent 50%), 
 	    linear-gradient(100deg, rgba(101, 6, 4, .95), transparent 100%), 
 	    linear-gradient(-100deg, rgba(158, 40, 234, .95), transparent 100%)/*, url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg)*/
 }
-
+ */
 /* Animated Pantone 2016 Hues */
-html.bg-gradient-02, .pTone {
+/* html.bg-gradient-02, .pTone {
     background: 
         linear-gradient(75deg, #f7cac9, #f7786b, #91a8d0, #034f84, #f7786b, #91a8d0, #f7786b, #034f84, #f7cac9, #342760, #9896a4, #ef8905, #0df4c9);
     background-size: 2600% 2600%;
@@ -136,10 +136,10 @@ html.bg-gradient-02, .pTone {
         50%{background-position:53% 100%}
         100%{background-position:48% 0%}
     }
-}
+} */
 
 /*MINT LIME SEAFOAM - mintyFoam */
-html.bg-gradient-03, .mintyFoam {
+/* html.bg-gradient-03, .mintyFoam {
     background: linear-gradient(268deg, #09efb3, #c6fa39, #3dfcd8, #3dfcd8);
     background-size: 800% 800%;
 
@@ -162,9 +162,9 @@ html.bg-gradient-03, .mintyFoam {
         50%{background-position:100% 71%}
         100%{background-position:0% 30%}
     }
-}
+} */
 
-DEEP SEA EMERALD, PURPLE, SEAFOAM, LIME - nikeForce 
+/* DEEP SEA EMERALD, PURPLE, SEAFOAM, LIME - nikeForce 
 html.bg-gradient-04, .nikeForce {
     background: linear-gradient(216deg, #153c35, #281635, #00ffd0, #c6fa39);
     background-size: 800% 800%;
@@ -188,7 +188,7 @@ html.bg-gradient-04, .nikeForce {
         50%{background-position:50% 100%}
         100%{background-position:51% 0%}
     }
-}
+} */
 
 
 /*********************************************
