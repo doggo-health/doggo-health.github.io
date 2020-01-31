@@ -204,6 +204,7 @@ html.bg-gradient-04, .nikeForce {
         padding: 20px;
 
         font-family:   'Montserrat', sans-serif;
+	font-size: 0.5em;
       /*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
       
       position: relative;
@@ -228,7 +229,6 @@ html.bg-gradient-04, .nikeForce {
       /* other */
       .info {
         margin: 20px 0;
-	font-size: 0.75em;
         text-align: center;
         opacity:0.25;
       }
