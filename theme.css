@@ -43,7 +43,7 @@
 body {
     /*background: rgba(44,46,48,0.8);*/
     background-color: blue;
-    transition: -webkit-transform 0.18s ease;
+/*     transition: -webkit-transform 0.18s ease; */
 }
 
 /*********************************************
@@ -56,11 +56,11 @@ html {
     background-position: center center;*/
 
     font-family: "Futura", "Tw Cen MT", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size: 36px;
+    font-size: 0.85em;
     font-weight: normal;
-    color: #333;
+/*     color: #333; */
     /*font-family: 'Century Gothic', 'Questrial', 'Didact Gothic', 'Dosis', 'Gill Sans MT', CenturyGothic, AppleGothic, Helvetica, sans-serif;*/
-		margin-top: -50px;
+		margin-top: 75px;
 }
 
 ::selection {
@@ -74,17 +74,12 @@ html {
  * HEADERS
  *********************************************/
 
-section.headers {
-}
 
-section.basement.splash {
-    /* margin: 20% 0 .15em 0; */
-}
 
 h1.headers.title {
     font-family: "Tw Cen MT", "Futura", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 3.5em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.15em;
 }
 
 
@@ -94,10 +89,10 @@ h1.headers.title {
 
 /*html.bg-gradient-01, .bg-gradient-01, */section.bg-gradient-01 {
     background: 
-    linear-gradient(-180deg, rgba(30, 112, 207, .45), transparent 300%), 
-    linear-gradient(240deg, rgba(9, 155, 221, .25), transparent 50%), 
-    linear-gradient(100deg, rgba(101, 6, 4, .95), transparent 100%), 
-    linear-gradient(-100deg, rgba(158, 40, 234, .95), transparent 100%)/*, url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg)*/
+	    linear-gradient(-180deg, rgba(30, 112, 207, .45), transparent 300%), 
+	    linear-gradient(240deg, rgba(9, 155, 221, .25), transparent 50%), 
+	    linear-gradient(100deg, rgba(101, 6, 4, .95), transparent 100%), 
+	    linear-gradient(-100deg, rgba(158, 40, 234, .95), transparent 100%)/*, url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg)*/
 }
 
 /* Animated Pantone 2016 Hues */
@@ -153,7 +148,7 @@ html.bg-gradient-03, .mintyFoam {
     }
 }
 
- DEEP SEA EMERALD, PURPLE, SEAFOAM, LIME - nikeForce 
+DEEP SEA EMERALD, PURPLE, SEAFOAM, LIME - nikeForce 
 html.bg-gradient-04, .nikeForce {
     background: linear-gradient(216deg, #153c35, #281635, #00ffd0, #c6fa39);
     background-size: 800% 800%;
@@ -201,30 +196,22 @@ html.bg-gradient-04, .nikeForce {
         align-items: center;
 
         min-height: 100vh;
-	margin-top: 7%;
+	margin-top: 15%;
         padding: 20px;
 
         font-family:   'Montserrat', sans-serif;
-	font-size: 0.5em;
       /*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
-      
+      /*    
       position: relative;
       width: 100%;
       height: 100%;
-/*    background: url('https://media.giphy.com/media/kqOkk3xDTrjSE/giphy.gif') center center no-repeat;
+      background: url('https://media.giphy.com/media/kqOkk3xDTrjSE/giphy.gif') center center no-repeat;
       background-size: cover;  */
       }
 
       .hr{
           opacity:0.25;
           margin-bottom: 0.15em;    
-      }
-      .clue{
-        opacity:0.5;
-        font-size:0.45em;
-        font-weight:lighter;
-        padding-top:0.15em;
-        color: #696969f0;
       }
 
       /* other */
@@ -320,72 +307,3 @@ html.bg-gradient-04, .nikeForce {
 
       }
 
-
-.error {
-    background: url(/assets/ph/giphy-07-face.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-transition-property: background;
-   transition-duration: 15s; /* 25s time it takes to fade-in*/
-   transition-delay: 0s; /* 25s time it takes to to actually play. no fade-in */
-   transition-timing-function: linear;
-    /*-webkit-filter: blur(500) opacity(0.1);*/
-    background-color: rgba(127,255,212,.95);
-    filter: opacity(0.1);
-    z-index: -100;
-}
-
-
-/* Learn More Icon */
-img.icon.svg.open {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-    position: initial;
-    width: 64px;
-    height: 64px;
-    -webkit-user-select: none;
-    opacity: 0.6;
-    transition: transform 350ms ease-out;
-    margin-bottom: -.18em;
-}
-
-/* Learn More Icon */
-img.icon.svg.open:hover {
-    -webkit-animation-name: bounceIn;
-    animation-name: bounceIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    /*opacity: 0.05;*/
-    transition: transform 50ms cubic-bezier(0.4, 0, 1, 1);
-    
-}
-
-a.nav.ctrl.open {
-    display: block;
-    transition: transform 150ms ease-in-out;
-}
-
-a.nac.ctrl.open:hover {
-    transition: transform 350ms ease-out;
-    opacity: 0.25;
-}
-
-h6.nav-pg-link.animated.fadeIn.icon.svg.open {
-    /*margin-top: 5%;
-    position: relative;
-    margin-bottom: 0;*/
-    bottom: -10em;
-    right: 43%;
-    margin-bottom: 0;
-    display: block;
-    position: fixed;
-    left: 43%;
-    margin: 0 auto;
-}
