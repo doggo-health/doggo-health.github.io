@@ -49,13 +49,13 @@ body {
         align-items: center;
 	background-color: blue;
 /*         min-height: 100vh; */
-        padding: 50% 20px;
-
+/*         padding: 50% 20px;
+ */
         font-family:   'Montserrat', sans-serif;
       /*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
             position: relative;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
 	      /*    
         background: url('https://media.giphy.com/media/kqOkk3xDTrjSE/giphy.gif') center center no-repeat;
         background-size: cover;  */
@@ -70,7 +70,7 @@ html {
     /*background: url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg);
     background-size: cover;
     background-position: center center;*/
-    background-color: orange;
+    background-color: aqua;
     font-family: "Futura", "Tw Cen MT", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 0.85em;
     font-weight: normal;
@@ -205,7 +205,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.hr{
+.hr {
   opacity:0.25;
   margin-bottom: 0.15em;    
 }
@@ -214,12 +214,11 @@ box-sizing: border-box;
 .info {
 margin: 20px 0;
 text-align: center;
-opacity:0.25;
+color: rgba(52, 39, 96, 0.611764705882353);
 }
 
 .copyright{
 padding-right:2em;  
-opacity: 1;
 }
 
 p {
