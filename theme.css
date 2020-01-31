@@ -54,7 +54,7 @@ html {
     /*background: url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg);
     background-size: cover;
     background-position: center center;*/
-
+	background-color: blue;
     font-family: "Futura", "Tw Cen MT", "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 0.85em;
     font-weight: normal;
@@ -194,7 +194,7 @@ html.bg-gradient-04, .nikeForce {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-
+background-color: blue;
         min-height: 100vh;
 	margin-top: 15%;
         padding: 20px;
