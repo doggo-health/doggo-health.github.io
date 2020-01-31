@@ -42,6 +42,7 @@
 
 body {
     /*background: rgba(44,46,48,0.8);*/
+    background-color: blue;
     transition: -webkit-transform 0.18s ease;
 }
 
@@ -291,7 +292,8 @@ html.bg-gradient-04, .nikeForce {
       /* animations */
       @keyframes revealBlock {
         100% {
-          color: #0f0f0f;
+/*           color: #0f0f0f; */
+		color: rgb(255, 250, 250);
         }
       }
 
